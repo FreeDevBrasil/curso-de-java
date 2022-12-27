@@ -25,6 +25,9 @@ Fazendo isso traz o benéfico de pode utilizar o Maven fora do projeto e IDE.
 
 Embora o Maven seja principalmente usado para projetos em Java, ele pode ser utilizado com qualquer linguagem, e isso é comum quando a maior parte do projeto é Java com módulos pequenos escritor em outras linguagens junto.
 
+Passos de processamento do Maven
+--------------------------------
+
 Como mencionado, Maven cuida de gerenciamento técnico do início ao final (inclusive a própria entrega e instalação em servidores remotos):
 
 1. **CLEAN**: *Limpeza da compilação anterior*
