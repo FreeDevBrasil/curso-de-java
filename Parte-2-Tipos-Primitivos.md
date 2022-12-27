@@ -1,48 +1,33 @@
-# Parte 2 - Tipos primitivos, classes e objetos e a diferencia entre eles.
+# Parte 2 - Tipos primitivos, classes e objetos e aa diferencias entre eles.
 
 ## Tipos primitivios
 
-Existem 8 (ou 9 se consideramos como um tipo primitivo) tipos primitivos em Java. Essas variaveis NÃO são objetos mas são tipos mais
-básicos, e especificam apenas o tamanho e a categoria de valores de variáveis e não contem métodos adicionais. 
+Existem 8 (ou 9 se consideramos como um tipo primitivo) tipos primitivos em Java. Essas variaveis NÃO são objetos, mas são tipos mais básicos, e especificam apenas o tamanho e a categoria de valores de variáveis e não contém métodos adicionais.
 
-Cada um dessses tipos primitivos tem uma classe específica para criar objetos do valor do tipo primitivo, e essas 
-classes são chamadas "wrapper". Por exemplo, o tipo primitivo `int` tem uma classe wrapper chamada `Integer`. E a 
-classe `Integer` tem metodos para manipular, alterar, etc... o valor do `int` que a classe `Integer` guarda por dentro.
+Cada um desses tipos primitivos tem uma classe específica para criar objetos do valor do tipo primitivo, e essas classes são chamadas "wrapper". Por exemplo, o tipo primitivo `int` tem uma classe wrapper chamada `Integer`. E a classe `Integer` tem métodos para manipular, alterar, etc... o valor do `int` que a classe `Integer` guarda por dentro.
 
 O beneficio é que podemos evolver a utilidade de um valor primitivo usando a classe wrapper, de tal tipo.
 
 ### Outros beneficios de uso de classes wrapper
 
-1. Eles convertem tipos de dados primitivos em objetos. Os objetos são necessários se quisermos modificar os argumentos 
-   passados para um método (porque os tipos primitivos são passados por valor).
+1. Eles convertem tipos de dados primitivos em objetos. Os objetos são necessários se precisamos modificar os argumentos passados para um método (porque os tipos primitivos são passados por valor).
 
-
-2. As classes no pacote java.util lidam apenas com objetos e, portanto, as classes wrapper também ajudam nesse caso.
-   * Classes comuns como List, Map, Set, Collection, ArrayList e Vector, e muitos outros armazenam apenas 
-     objetos e não tipos primitivos. O motivo é que essas classes trabalhar com tipos de referência, que podem ser
-     alterados dentro do método, mas tipos primitivos não podem ser alterados dentro do método, para alterar valor de um
-     tipo primitivo, tem que re-assignar um novo valor ao variavel.
-
+2. Muitas classes no pacote java.util lidam apenas com objetos e, portanto, as classes wrapper também são necessárias la.
+   * Classes comuns como List, Map, Set, Collection, ArrayList e Vector, e muitos outros armazenam apenas objetos e não tipos primitivos. O motivo é que essas classes trabalhar com tipos de referência, que podem ser alterados dentro do método, mas tipos primitivos não podem ser alterados dentro do método, para alterar valor de um tipo primitivo, tem que reassinar um novo valor ao variável.
 
 3. Um objeto é necessário para oferecer suporte à sincronização em multithreading.
 
-
 ### Então, agora sabemos que as principais diferenças entre tipos primitivos e wrappers são:
 
-1. Os tipos primitivos são mais rápidos que os wrappers, por não ser objetos. Mas isso depende do JDK (ou JVM) usado, 
-   por que alguns JVMs otimizam o uso de wrappers, e convertem para tipos primitivos quando possível, e outros não.
+1. Os tipos primitivos são mais rápidos do que os wrappers, por não ser objetos. Mas isso depende do JDK (ou JVM) usado, por que alguns JVMs otimizam o uso de wrappers, e convertem para tipos primitivos quando possível, e outros não.
 
-
-2. Os tipos primitivos não podem ser nulos, mas objetos podem ser nulos. Todos os tipos primitivos têm um valor
-   padrão se não for inicializada. Por exemplo, um `int` é 0, um `boolean` é false, um `char` é '\u0000'.
-
+2. Os tipos primitivos não podem ser nulos, mas objetos podem ser nulos. Todos os tipos primitivos têm um valor padrão se não for inicializada. Por exemplo, um `int` é 0, um `boolean` é false, um `char` é '\u0000'.
 
 3. Os tipos primitivos não têm métodos, mas os wrappers têm métodos. Primitivos podem ter propriedades, mas não métodos.
 
-
 4. Tipos primitivos são predefinidos (por exemplo, `int`, `boolean`, `char`), e não é possivel criar um tipo primitivo.
-   Pode criar classes, interfaces, enums ou annotations que utilizam tipos primitivos internamente, mas não pode criar
-   um tipo primitivo.
+
+Você pode criar classes, interfaces, enums ou annotations que utilizam tipos primitivos internamente, mas você não pode criar um tipo primitivo em Java, a menos que que você cria o seu próprio JVM que suporta essa funcionalidade.
 
 <table>
     <thead>
@@ -130,40 +115,33 @@ O beneficio é que podemos evolver a utilidade de um valor primitivo usando a cl
     <tr>
         <td>void</td>
         <td><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Void.html">Void</a></td> 
-        <td colspan="4">Void não tem nem valor ou tamanho especifico. Normalmente usado para indicar metodos sem valor
-        de retoorn</td>
+        <td colspan="4">Void não tem nem valor ou tamanho especifico. Normalmente usados para indicar metodos sem valor de retorno</td>
     </tr>
     </tbody>
 </table>
 
 ## Classes e Objetos em Java
 
-A diferença entre uma classe e um objeto é que uma classe é um modelo para um objeto. Um objeto é apenas uma instância 
-criada de uma classe. Uma classe é uma categoria de dado, e um objeto é uma variavel do tal classe. Ou seja, a classe
-é uma receita de bolo, e o objeto é o bolo.
+A diferença entre uma classe e um objeto é que uma classe é um modelo para um objeto. Um objeto é apenas uma instância criada de uma classe. Uma classe é uma categoria de dado, e um objeto é uma variável da tal classe. Ou seja, a classe é uma receita de bolo, e o objeto é o bolo.
 
 ### Criando uma classe representando um carro
 
-Para criar uma classe em Java, basta usar a palavra reservada `class` seguida do nome da classe. Por convenção, o nome
-da classe deve começar com letra maiuscula. A classe pode conter atributos e metodos. Atributos são variaveis que pertencem
-a classe, e metodos são funções que pertencem à classe. A classe pode conter atributos e metodos privados, protegidos e
-publicos. Atributos e metodos privados só podem ser acessados na classe. Atributos e metodos protegidos só podem ser
-acessados na classe e de classes filhas. Atributos e metodos publicos podem ser acessados de qualquer lugar.
+Para criar uma classe em Java, basta usar a palavra reservada `class` seguida do nome da classe. Por convenção, o nome da classe deve começar com letra maiúscula. A classe pode conter atributos e métodos. Atributos são variáveis que pertencem a classe, e métodos são funções que pertencem à classe. A classe pode conter atributos e métodos privados, protegidos e públicos. Atributos e métodos privados só podem ser acessados na classe. Atributos e métodos protegidos só podem ser acessados na classe e de classes filhas. Atributos e métodos públicos podem ser acessados de qualquer lugar.
 
 ```java
 
-// Definição de uma classe chamada Carro.
+package br.dev.free.tipos;
 
+// Definição de uma classe chamada Carro.
 public class Carro {
-    
+
     private String marca;
     private String modelo;
     private int ano;
-    
+
     public void ligar() {
         this.ligado = true;
     }
-    
     public void desligar() {
         this.ligado = false;
     }
@@ -174,11 +152,11 @@ public class Carro {
         System.out.println("Ano: " + this.ano);
         System.out.println("Ligado: " + this.ligado);
     }
+    
 }
 
 // Criação de um objeto da classe Carro.
-
 Carro carro = new Carro();
-carro.imprimir(); // Vai imprimir os valores padrão dos atributos da classe Carro.
+carro.imprimir();  // Vai imprimir os valores padrão dos atributos da classe Carro.
+
 ```
-    
