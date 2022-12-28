@@ -5,7 +5,7 @@
 * [Parte 2 \- Tipos primitivos, classes e objetos e aa diferencias entre eles.](Parte-2-Tipos-Primitivos.md)
 * [Parte 3 \- Estrutras Condicionais](Parte-3-Estruturas-Condicionais.md)
 * [Parte 4 \- Maven: Repositórios, bibliotecas, build e distribuição de dependências](Parte-4-Maven-Bibliotecas.md)
-* [Parte 5 – JDBC e Interface Gráficas em Java (User Interface)](Parte-5-JDBC_e_UI)
+* [Parte 5 – JDBC e Interface Gráficas em Java (User Interface)](Parte-5-JDBC_e_UI.md)
 
 # Projetos para Exercício
 
