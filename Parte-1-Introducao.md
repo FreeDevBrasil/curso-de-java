@@ -1,6 +1,7 @@
 # Parte 1 - Introdução a Java, e Orientação a objetos em geral
 
 * [Introdução á JAVA](#introduo--java)
+
 * [Os 4 pilares da programação orientada a objetos](#os-4-pilares-da-programao-orientada-a-objetos-)
     * [Abstração](#abstrao)
     * [Encapsulamento](#encapsulamento)
@@ -12,6 +13,7 @@
 * Antes de começar, [Java](https://bit.ly/java-orientacao-objetos) não tem nenhuma relação com [Javascript](https://bit.ly/java_is_not_javascript), além do nome.
   São duas linguagens totalmente diferentes que servem propósitos diferentes. Essa semelhança de nomes confunde muitos, e infelizmente,
   [a história não é nem interessante](https://bit.ly/js_nome).
+
 
 * Java é utilizada em todas as industrias globais de multiplas formas diferentes, equipamentos de  últiplos tipos. Além disso Java é a principal língua do [Android](), além de ser utilizada para programar cartões de SIM (chip telefônicos para celulares. Embora Java não esteja muito presente em desenvolvimento de Jogos em geral, um dos mais populares jogos de todos os tempos foi escrito em Java. Então, Java esta em todos os lugares.
 
@@ -33,7 +35,10 @@
 
 * Java é uma linguagem [Orientada a Objetos](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos), aonde criamos objetos virtuais, que as vezes representam objetos da vida real, mas são usados de outras formas tambem. Mas Programação orientada a objetos é muito mais do que só isso.
 
-## Os **4 pilares da programação orientada a objetos**:
+------------------------------------------------------------------
+
+# Os 4 pilares da programação orientada a objetos
+
 
 ### Abstração
 
@@ -43,15 +48,15 @@ Um exemplo claro do conceito de abstração seria o funcionamento de um carro. Q
 
 ### Encapsulamento
 
-A definição de encapsulamento é "a ação de colocar algo dentro ou como se estivesse em uma cápsula". Remover o acesso a partes do seu código e tornar as coisas privadas é exatamente o que o Encapsulamento faz (muitas vezes, as pessoas se referem a ele como "ocultação de dados").
+#### TLDR: encapsulamento é o conceito de esconder detalhes de implementação e mostrar apenas o que é necessário para o programador e assim simplificar a estrutura e construção de um objeto ou projeto.
 
-Encapsulamento significa que o código de cada objeto deve controlar apenas seu próprio estado.  Se você não sabe o que é o estado de um objeto, vamos fazer a seguinte analogia:
+Em contexto de programção, **o encapsulamento é agrupamento de dados junto com metodos que vão operar em tal dados.** 
 
-Sabe aquele retrato de família, em que você era bebê ainda? Ele é um registro do estado "instantâneo" em que você estava naquele exato momento. De lá pra cá muita coisa mudou, e se hoje você tirar uma nova foto, seu estado já não é o mesmo que aquele. Aquilo que você fez durante o tempo com sua vida, transformou você. A mesma coisa ocorre com o objeto.
+O objetivo principal do encapsulamento é simplificação. Agrupando dadods e metodos que trabalham juntos, e deixando separado do resto e assim ocultando o acesso e a visiblidade de código irrelevante a seu objetivo principal.
 
-O estado é o "instantâneo" atual do objeto. Todas as chaves e métodos (funções) de um objeto são suas propriedades. Se você redefinir ou excluir uma chave, por exemplo, estará alterando o seu estado.
+Há muito desentendimento sobre a definição exata do **encapsulamento**, principalmente do parte dos dados, por que você pode ter os dados "encapsuladas", e, ao mesmo tempo, visiveis, 
 
-Por isso, é importante limitar o acesso de quais partes do código podem ser acessadas. Caso não sejam necessárias, torne as coisas mais inacessíveis para não possibilitar efeitos colaterais no estado do objeto.
+Muitas vezes o termo encapsulamento é usado para descrever a visibilidade de dados, ou mesmo como "ocultação de dados", mas isso não é o encapsulamento, mas sim uma consequencia do encapsulamento.
 
 ### Herança
 
@@ -65,7 +70,7 @@ A reutilização é o principal benefício aqui. Sabemos que às vezes a mesma c
 
 Polimorfismo significa "a condição de ocorrer de várias formas diferentes". É exatamente com isso que o quarto e último pilar está preocupado – que tipos nas mesmas cadeias de herança sejam capazes de fazer coisas diferentes.
 
-Se você usou a herança corretamente, agora pode usar tanto os pais de maneira confiável como seus filhos. Quando dois tipos compartilham uma cadeia de herança, eles podem ser usados ​​alternadamente sem erros ou declarações em seu código.
+Se você usou a herança corretamente, agora pode usar tanto os pais de maneira confiável como seus filhos. Quando dois tipos compartilham uma cadeia de herança, eles podem ser usados alternadamente sem erros ou declarações em seu código.
 
 Portabilidade - Independência de plataforma - "escreva uma vez, execute em qualquer lugar" ("write once, run anywhere");
 Recursos de Rede - Possui extensa biblioteca de rotinas que facilitam a cooperação com protocolos TCP/IP, como HTTP e FTP;
@@ -89,9 +94,9 @@ public class Gato extends Animal {
     public void setIdade(int idade) { this.idade = idade; }
 }
 
-Animal meuAnimal = new Gato("Billy"): // Isso é OK, por que um Gato é Animal.
+Animal meuAnimal = new Gato("Billy"); // Isso é OK, por que um Gato é Animal.
 
-Gato meuGato = new Animal("Billy"): // Isso NÃO é OK, por que nem tudo Animal é Gato.
+Gato meuGato = new Animal("Billy"); // Isso NÃO é OK, por que nem tudo Animal é Gato.
 
 ```
 

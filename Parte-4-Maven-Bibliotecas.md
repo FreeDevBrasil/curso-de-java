@@ -1,4 +1,4 @@
-# Parte 4 – Maven: Repositórios, bibliotecas, build e distribuição de dependências
+# Parte 4 — Maven: Repositórios, bibliotecas, build e distribuição de dependências
 
 Introdução
 ----------

@@ -1,4 +1,4 @@
-# Parte 3 - Estrutras Condicionais
+# Parte 3 — Estrutras Condicionais
 
 ## Introdução
 
