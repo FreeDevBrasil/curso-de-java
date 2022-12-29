@@ -30,7 +30,10 @@
 
 ### Projetos criados durante o curso:
 
-* [https://github.com/FreeDevBrasil/java-projeto-calculadora](Projeto 1 — Calculadora na linha de comando) - com operações básicas, e suporte para historico de operações, além da validação da entrada.
+* [ Calculadora na linha de comando](https://github.com/FreeDevBrasil/java-projeto-calculadora)<br>
+  * Operadores básicos + - * /
+  * Gravação de historico de calculações
+  * Validação da entrada
 
 * Projeto 2 — Aplicativo de inteface gráfica composto de uma lista e editor de texto. As instruções estão no arquivo [README.md](README.md) do projeto, e contem algumas dicas para começar, mas você pode fazer o projeto da forma que quiser.
 
