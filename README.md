@@ -30,13 +30,26 @@
 
 ### Projetos criados durante o curso:
 
-* [ Calculadora na linha de comando](https://github.com/FreeDevBrasil/java-projeto-calculadora)<br>
-  * Operadores básicos + - * /
+* [Calculadora na linha de comando](https://github.com/FreeDevBrasil/java-projeto-calculadora)<br>
+  * Operadores básicos +  -  x  /
   * Gravação de historico de calculações
   * Validação da entrada
 
-* Projeto 2 — Aplicativo de inteface gráfica composto de uma lista e editor de texto. As instruções estão no arquivo [README.md](README.md) do projeto, e contem algumas dicas para começar, mas você pode fazer o projeto da forma que quiser.
+* [Inteface gráfica (UI) composto de uma lista e editor de texto](https://github.com/FreeDevBrasil/java-projeto-list-text-ui)<br>
+  * A lista do lado esceirdo deve contem itens carregados externalmente (arquivo ou algum lugar fora do código)
+  * Clicando em um iem na lista mostra conteudo ao lado esceirdo relactionado a item clicado
+  * Funcionalidade adicional é dua sua escolha. Recomendado mas opcional.
 
+* [Aplicativo de Chat utilizando RabbitMQ](https://github.com/FreeDevBrasil/java-projeto-chat)<br>
+  * Projeto final, e recomendo trabalhar em equipa para finalizar, mas é opicional.
+  * Utilizando RabbiMQ crie um canal de mensagens (Escolhe entre Pub/Sub, Topic ou RBC) - Leia sobre as diferencias e escolhe o que acha melhor.
+  * Só precisa de um App com Main, aonde tem escolha se voce é Pessoa A ou B
+
+* [Aplicativo de Chat utilizando RabbitMQ](https://github.com/FreeDevBrasil/java-projeto-chat)<br>
+  * Projeto final, e recomendo trabalhar em equipa para finalizar, mas é opicional.
+  * Utilizando RabbiMQ crie um canal de mensagens (Escolhe entre Pub/Sub, Topic ou RBC) - Leia sobre as diferencias e escolhe o que acha melhor.
+  * Só precisa de um App com Main, aonde tem escolha se voce é Pessoa A ou B
+  
 ### Desafios resolvidos durante o curso:
 
 * Desafio 1 \- Criar um metodo que aceita número `int` e retorne um `boolean` se ele é par ou ímpar. ***<-- Para aquecimento dos próximos desafios.***
