@@ -12,7 +12,7 @@
 * [IntelliJ IDEA (Community)](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
 * [Git](https://git-scm.com/downloads)
 
-## Conteúdo do curso:
+### Conteúdo do curso:
 
 * [Parte 1 — Introdução a Java, e Orientação a objetos em geral](p1-introducao.md)
 
@@ -28,13 +28,12 @@
 
 * [Parte 5 – JDBC e Interface Gráficas em Java (User Interface)](Parte-5-JDBC_e_UI.md)
 
-# Projetos criados durante o curso:
+### Projetos criados durante o curso:
 
 * Projeto 1 — Calculadora na linha de comando, com operações básicas, e suporte para historico de operações, além da validação da entrada.
 
-
 * Projeto 2 — Aplicativo de inteface gráfica composto de uma lista e editor de texto. As instruções estão no arquivo [README.md](README.md) do projeto, e contem algumas dicas para começar, mas você pode fazer o projeto da forma que quiser.
 
-# Desafios resolvidos durante o curso:
+### Desafios resolvidos durante o curso:
 
 * Desafio 1 \- Criar um metodo que aceita número `int` e retorne um `boolean` se ele é par ou ímpar. ***<-- Para aquecimento dos próximos desafios.***
