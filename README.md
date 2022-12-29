@@ -35,10 +35,10 @@
   * Gravação de historico de calculações
   * Validação da entrada
 
-* [Inteface gráfica (UI) composto de uma lista e editor de texto](https://github.com/FreeDevBrasil/java-projeto-list-text-ui)<br>
+* [Inteface gráfica (UI) composta de lista e editor de texto](https://github.com/FreeDevBrasil/java-projeto-list-text-ui)<br>
   * A lista do lado esceirdo deve contem itens carregados externalmente (arquivo ou algum lugar fora do código)
   * Clicando em um iem na lista mostra conteudo ao lado esceirdo relactionado a item clicado
-  * Funcionalidade adicional é dua sua escolha. Recomendado mas opcional.
+  * Funcionalidade adicional é da sua escolha. Recomendado mas opcional.
 
 * [Simulador de uma conta poupanca](https://github.com/FreeDevBrasil/java-projeto-conta-poupanca)<br>
   * Funções: Deposito, Saque ou Balanco
