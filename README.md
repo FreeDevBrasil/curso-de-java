@@ -40,16 +40,12 @@
   * Clicando em um iem na lista mostra conteudo ao lado esceirdo relactionado a item clicado
   * Funcionalidade adicional é dua sua escolha. Recomendado mas opcional.
 
-* [Aplicativo de Chat utilizando RabbitMQ](https://github.com/FreeDevBrasil/java-projeto-chat)<br>
-  * Projeto final, e recomendo trabalhar em equipa para finalizar, mas é opicional.
-  * Utilizando RabbiMQ crie um canal de mensagens (Escolhe entre Pub/Sub, Topic ou RBC) - Leia sobre as diferencias e escolhe o que acha melhor.
-  * Só precisa de um App com Main, aonde tem escolha se voce é Pessoa A ou B
+* [Simulador de uma conta poupanca](https://github.com/FreeDevBrasil/java-projeto-conta-poupanca)<br>
+  * Funções: Deposito, Saque ou Balanco
+  * Para simplificação, os juros que adicionadas são colocadas na hora do deposito (10%) - mas sera retirado (15% se for saque)
 
 * [Aplicativo de Chat utilizando RabbitMQ](https://github.com/FreeDevBrasil/java-projeto-chat)<br>
   * Projeto final, e recomendo trabalhar em equipa para finalizar, mas é opicional.
   * Utilizando RabbiMQ crie um canal de mensagens (Escolhe entre Pub/Sub, Topic ou RBC) - Leia sobre as diferencias e escolhe o que acha melhor.
   * Só precisa de um App com Main, aonde tem escolha se voce é Pessoa A ou B
   
-### Desafios resolvidos durante o curso:
-
-* Desafio 1 \- Criar um metodo que aceita número `int` e retorne um `boolean` se ele é par ou ímpar. ***<-- Para aquecimento dos próximos desafios.***
