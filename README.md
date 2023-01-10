@@ -14,7 +14,7 @@
 
 ### Conteúdo do curso:
 
-* [Parte 1 — Introdução a Java, e Orientação a objetos em geral](Parte-1-introducao.md)
+* [Parte 1 — Introdução a Java, e Orientação a objetos em geral](Parte-1-Introducao.md)
 
 
 * [Parte 2 — Tipos primitivos, classes e objetos e aa diferencias entre eles.](Parte-2-Tipos-Primitivos.md)
