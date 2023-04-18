@@ -1,6 +1,8 @@
 # Formação para Iniciantes de Programação, utilizando Java
 [![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)
 
+### Escrito por Kjartan Ólason, e serve mais para guia de ensino do que u curos completo. Se quiser colaboardar, seja bem vindo a contribuir, qualquer PR é agradeçido.
+
 ### Pré-requisitos do curso:
 * Conhecimento básico de utilização de um computador, instalação de aplicativo. e etc...
 * Git e GitHub ([Início Rápido](https://docs.github.com/pt/get-started/quickstart/hello-world))
